@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Something Girly is Coming Soon | Join the Waitlist</title>
+    <meta name="description" content="Get ready for the cutest launch of the year. Join our waitlist to be the first to know when we go live!">
+    <!-- Linked Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon (Simulated with emoji for girly theme) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💖</text></svg>">
+</head>
+<body>
+
+    <!-- Background Elements for P2 Enhancements -->
+    <div id="confetti-container"></div>
+
+    <main class="landing-container">
+        
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="logo-area">
+                <span class="heart-icon">✨</span>
+                <h1>GirlyComingSoon</h1>
+            </div>
+            <h2 class="main-headline">Something very <span class="accent-text">girly</span> is coming soon</h2>
+            <p class="sub-headline">The ultimate destination for all things pink, sparkly, and fabulous. We're putting the finishing touches on our dream world just for you.</p>
+        </section>
+
+        <!-- Countdown Timer Section -->
+        <section class="countdown-container">
+            <div class="timer-item">
+                <span id="days" class="timer-value">00</span>
+                <span class="timer-label">Days</span>
+            </div>
+            <div class="timer-item">
+                <span id="hours" class="timer-value">00</span>
+                <span class="timer-label">Hours</span>
+            </div>
+            <div class="timer-item">
+                <span id="minutes" class="timer-value">00</span>
+                <span class="timer-label">Mins</span>
+            </div>
+            <div class="timer-item">
+                <span id="seconds" class="timer-value">00</span>
+                <span class="timer-label">Secs</span>
+            </div>
+        </section>
+
+        <!-- Lead Capture Form -->
+        <section class="form-container">
+            <div id="waitlist-card" class="card">
+                <h3>Don't miss the sparkle!</h3>
+                <p>Sign up for early access and an exclusive launch-day discount.</p>
+                
+                <form id="waitlist-form">
+                    <div class="input-group">
+                        <input type="email" id="email" placeholder="Enter your email address" required aria-label="Email Address">
+                        <button type="submit" class="cta-button">Join Waitlist</button>
+                    </div>
+                    <p id="error-message" class="error-msg hidden">Please enter a valid email address.</p>
+                </form>
+            </div>
+
+            <!-- Success State (Hidden by default) -->
+            <div id="success-state" class="card hidden">
+                <div class="success-icon">💖</div>
+                <h3>You're on the list!</h3>
+                <p>Welcome to the inner circle, babe. Check your inbox for a little surprise we sent your way.</p>
+                <button id="reset-form" class="secondary-button">Back to home</button>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Social Footer -->
+    <footer class="social-footer">
+        <div class="social-links">
+            <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
+                <span class="social-icon">Instagram</span>
+            </a>
+            <a href="https://tiktok.com" target="_blank" rel="noopener" aria-label="TikTok">
+                <span class="social-icon">TikTok</span>
+            </a>
+            <a href="https://pinterest.com" target="_blank" rel="noopener" aria-label="Pinterest">
+                <span class="social-icon">Pinterest</span>
+            </a>
+        </div>
+        <p class="copyright">&copy; 2024 GirlyComingSoon. All rights reserved.</p>
+    </footer>
+
+    <!-- Main JavaScript Logic -->
+    <script src="js/main.js"></script>
+</body>
+</html>
